@@ -1,0 +1,237 @@
+@charset "utf8" ;
+
+body{
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    
+}
+
+
+
+
+h1{
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+}
+h2{
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+h3{
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p{
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+   }
+
+   section.modulo.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+       }
+
+ section.modulo.parallax h1{
+    color: antiquewhite;
+    text-align: center;
+        font-size: 55px;
+        text-transform: uppercase;
+        text-shadow: 10px 10px 10px #000000cc;
+        z-index: 50;   }
+
+
+
+        section.modulo.parallax h5{
+            color: antiquewhite;
+            text-align: center;
+                font-size: 55px;
+                text-transform: uppercase;
+                text-shadow: 10px 10px 10px #000000cc;
+                z-index: 50;   }
+
+                section.modulo.parallax h2{
+                    color: antiquewhite;
+                    text-align: center;
+                        font-size: 55px;
+                        text-transform: uppercase;
+                        text-shadow: 10px 10px 10px #000000cc;
+                        z-index: 50;   }
+
+     
+
+        section.modulo.parallax{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh !important;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        img{
+            width: 1210px;
+            margin-left: 50px;
+            border-radius: 60px;
+            
+            
+        }
+        h4{
+             font-family: sans-serif;
+             color: antiquewhite;
+             text-align: justify;
+             margin-left: 50px;
+             margin-right: 50px;
+        }
+        section{
+            text-align: center;
+            
+        }
+
+        h4{
+            color: antiquewhite;
+
+        }
+
+        footer{
+            color: antiquewhite;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        h5{
+            color: antiquewhite;
+        }
+        .fotoruim{
+            margin-right: 400px;
+            margin-left: 137px;
+        }
+        
+
+
+        section.modulo.parallax-1{
+            background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg");
+        }
+
+
+        section.modulo.parallax-5{
+            background-image: url("https://cdn.pixabay.com/photo/2018/03/27/21/43/startup-3267505_1280.jpg");
+        }
+
+
+        section.modulo.parallax-2{
+            background-image: url("https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg");
+        }
+
+
+        
+
+
+
+
+
+
+
+        p {
+            animation-duration: 3s;
+            animation-name: slidein;
+          }
+          
+          @keyframes slidein {
+            from {
+              margin-left: 100%;
+              width: 300%;
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+
+          @media all and (max-width: 760px){
+
+            section.modulo p{
+                margin-bottom: 10px;
+                text-align: center;
+                font-size: 1em;
+            }
+             img{
+                height: 600px;
+                width: 370px;
+                margin: 0 0 0 0%;
+                margin-right: 160px;
+                margin-left: -10px;
+
+            }
+
+            iframe{
+                margin: 0 0 0 0%;
+                width: 400px;
+            }
+            h1{
+                margin: 0 0 0 0%;
+                margin-top: 450px;
+                margin-bottom: 450px;
+                margin-right: 10%;
+                
+                
+                
+
+
+            }
+            h2{
+                margin: 0 0 0 0%;
+                margin-top: 450px;
+                margin-bottom: 150px;
+                
+
+
+            }
+            h3{
+                margin: 0 0 0 0%;
+                text-align: center;
+
+
+            }
+            .fotoruim{
+            margin-right: 100px;
+            margin-left: -40px;
+                
+            }
+
+          }
